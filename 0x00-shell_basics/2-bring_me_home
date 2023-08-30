@@ -1,3 +1,2 @@
 #!/bin/bash
-cd ~
-exec "$SHELL"
+cd ~ ; exec "$SHELL"
