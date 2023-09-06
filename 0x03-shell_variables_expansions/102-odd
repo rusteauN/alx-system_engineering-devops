@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, - | cut -d, -fl
+grep -n '' | grep [1,3,5,7,9]: | cut -f2 -d':'
